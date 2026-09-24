@@ -1,15 +1,9 @@
-## Project Overview
-
-As part of an analytical investigation into Olist’s e-commerce operations, this project explores the company’s data to uncover meaningful insights across sales, customer behavior, delivery performance, payments, products, and seller activity.
-
-The analysis focuses on transforming raw, multi-table business data into **clear findings and actionable insights**, providing a deeper understanding of Olist’s performance and the factors shaping its customers’ experience.
-
-
-
-
-
 # Project Background
-Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
+
+As a data analyst at Olist, the focus is on understanding a Brazilian e-commerce marketplace that connects sellers with customers. The business generates data across orders, customers, sellers, products, payments, deliveries, and reviews.
+
+The analysis focuses on key metrics such as sales, order volume, delivery performance, seller activity, and customer satisfaction to better understand Olist’s overall business performance.
+
 
 Insights and recommendations are provided on the following key areas:
 
@@ -28,11 +22,17 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 
 # Data Structure & Initial Checks
 
-The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
-- **Table 2:**
-- **Table 3:**
-- **Table 4:**
-- **Table 5:**
+| Table | Description | Rows | Columns |
+|---|---|---:|---:|
+| `olist_customers_dataset` | Customer information and geographic data | 99,441 | 5 |
+| `olist_orders_dataset` | Order status and timestamps throughout the order lifecycle | 1,000,163 | 5 |
+| `olist_order_items_dataset` | Products, sellers, prices, and freight associated with each order | 112,650 | 7 |
+| `olist_order_payments_dataset` | Payment methods, installments, and payment values | 103886 | 5 |
+| `olist_order_reviews_dataset` | Customer review scores and review-related information | — | — |
+| `olist_products_dataset` | Product attributes and category information | — | — |
+| `olist_sellers_dataset` | Seller information and geographic data | — | — |
+| `olist_geolocation_dataset` | Brazilian ZIP-code geolocation information | — | — |
+| `product_category_name_translation` | Portuguese-to-English product category translations | — | — |
 
 [Entity Relationship Diagram here]
 
