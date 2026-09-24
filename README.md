@@ -14,11 +14,11 @@ Insights and recommendations are provided on the following key areas:
 - **Category 3:** 
 - **Category 4:** 
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [link].
+The **Python scripts and notebooks** used for data cleaning, preparation, and exploratory data analysis can be found here [link].
 
-Targed SQL queries regarding various business questions can be found here [link].
+The **SQL queries** used to analyze the cleaned data and answer targeted business questions can be found here [link].
 
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
+The **Power BI dashboard** used to visualize key findings, explore business performance, and communicate insights can be found here [link].
 
 
 
