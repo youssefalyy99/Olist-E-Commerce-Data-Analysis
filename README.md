@@ -4,6 +4,8 @@ As a data analyst at Olist, the focus is on understanding a Brazilian e-commerce
 
 The analysis focuses on key metrics such as sales, order volume, delivery performance, seller activity, and customer satisfaction to better understand Olist’s overall business performance.
 
+> **Project:** Olist E-Commerce Data Analysis<br>
+> **Dataset:** Brazilian E-Commerce Public Dataset by Olist<br>
 
 Insights and recommendations are provided on the following key areas:
 
